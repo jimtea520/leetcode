@@ -38,7 +38,6 @@ public class Interview_斐波那契数列 {
             int f = f1 + f2;
             f1 = f2;
             f2 = f;
-
         }
 
         return  f2;
