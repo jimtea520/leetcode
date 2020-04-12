@@ -21,6 +21,12 @@ public class Interview_有多少小于当前数字的数字 {
         System.out.println(smallerNumbersThanCurrent(nums));
     }
 
+    /**
+     * 执行用时 :10 ms
+     * 内存消耗 :41.8 MB
+     * @param nums
+     * @return
+     */
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int[] rets =  new int[nums.length];
         int[] copys = nums.clone();
